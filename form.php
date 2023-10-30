@@ -55,11 +55,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST" ){
             <input type="text" name="user_name" id="name">
         </fieldset>
         <fieldset>
-        <label for="firstname">Prénom :</label>
+        <label for="firstname">Prenom :</label>
             <input type="text" name="user_firstname" id="firstname">
         </fieldset>
         <fieldset>
-        <label for="imageUpload">Télécharge ta photo</label>
+        <label for="imageUpload">Telecharge ta photo</label>
         <input type="file" name="avatar" id="imageUpload">
         <button name="send">Envoi</button>
         </fieldset>
